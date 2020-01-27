@@ -1,0 +1,150 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 860px;
+    }
+    .promo {
+        padding: 20px 0 50px 0;
+        &__wrapper {
+            margin-top: 50px;
+        }
+    } 
+    .title {
+        &_left {
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 680px;
+    }
+    .promo {
+        min-height: 530px;
+        &__wrapper {
+            margin-top: 30px;
+        }
+        &__header{
+            font-size: 39px;
+        }
+        &__subheader {
+            font-size: 19px;
+        }
+        &__icons {
+            margin-top: 30px;
+            width: 380px;
+        }
+    }
+    .button {
+        &_main {
+            margin-top: 40px;
+        }
+    }
+    .advantages {
+        padding-top: 50px;
+        &__block {
+            width: 200px;
+            margin-top: 40px;
+        }
+        &__text {
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 400px;
+    }
+    .header {
+        &__official {
+            display: none;
+        }
+        &__logo {
+            width: 200px;
+        }
+    }
+    .promo {
+        min-height: 525px;
+        &__wrapper {
+            align-items: center;
+        }
+        &__header{
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 15px;
+        }
+        &__icons {
+            margin-top: 45px;
+        }
+    }
+    .advantages {
+        padding: 50px 0 50px 0;
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__block {
+            width: 400px;
+            margin-top: 85px;
+        }
+        &__title {
+            margin-top: 15px;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+    .consultation{
+        min-height: 570px;
+        padding: 70px 0 70px 0;
+        &__descr {
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 36px auto;
+    }
+}
+
+@media (max-width: 424px) {
+    .container {
+        width: 300px;
+    }
+    .header {
+        &__logo {
+            width: 135px;
+            margin-top: -15px;
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 24px;
+        }
+        &__icons {
+        width: 300px;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+    
+    }
+    .advantages {
+        &__block {
+        width: 300px;
+        }
+    }
+    .button {
+        &_main {
+            width: 275px;
+        }
+    }
+}
