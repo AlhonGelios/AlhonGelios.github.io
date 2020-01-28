@@ -22,7 +22,14 @@ const slider = tns({
     slideBy: 'page',
     autoplay: false,
     controls: false,
-    nav: false
+    responsive: {
+        320: {
+            nav: true
+        },
+        767: {
+          nav: false
+        }
+    }
   });
 
 document.querySelector('.prev').addEventListener('click', function () {
