@@ -132,10 +132,11 @@
     .header {
         &__logo {
             width: 135px;
-            margin-top: -15px;
         }
-        &__phone {
-            font-size: 14px;
+        &__contacts {
+            a {
+            font-size: 12px;
+            }
         }
     }
     .promo {
@@ -155,6 +156,8 @@
         }
     }
     .button {
+        width: 90px;
+        height: 40px;
         &_main {
             width: 275px;
         }
