@@ -1,0 +1,20 @@
+.pageup {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.4;
+    border-radius: 100%;
+    border: none;
+    img {
+        width: 100%;
+    }
+    &:hover{
+        text-decoration: none;
+        opacity: 1;
+        box-shadow: 0px 0px 20px #000;
+        transform: scale(1.2 , 1.2);
+    }
+}
